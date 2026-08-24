@@ -13,16 +13,24 @@ This repository contains filters I use to hide unwanted content, reduce distract
 - YouTube
   - Hide Shorts
 
-## Usage
+## Installation
 
-Open uBlock Origin:
+### BetterNet
 
-1. Go to **Dashboard**
-2. Open **Filter lists**
-3. Add the raw URL of the filter list under **Import**
-4. Apply changes
+Import this filter list into uBlock Origin:
 
-You can also copy the filters manually into **My filters**.
+https://raw.githubusercontent.com/leongps/my-browser-toolkit/main/betternet.txt
+
+### Recommended external filters
+
+#### Hide YouTube Shorts
+
+Removes YouTube Shorts from the homepage, search results, sidebar, channel pages and mobile site.
+
+https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt
+
+Source:
+https://github.com/gijsdev/ublock-hide-yt-shorts
 
 ## Credits
 
