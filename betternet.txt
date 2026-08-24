@@ -31,3 +31,16 @@ facebook.com##[aria-posinset] [href="/reel/?s=ifu_see_more"]:upward([aria-posins
 
 ! Hide Reels section
 www.facebook.com##[role=main]>div [aria-label="Reels"]:upward(3)
+
+! ============================================================
+! YouTube
+! ============================================================
+
+! Hide Games / Playables from the sidebar
+www.youtube.com##ytd-guide-entry-renderer:has(a[href="/playables"])
+
+! Hide Games / Playables from the compact sidebar
+www.youtube.com##ytd-mini-guide-entry-renderer:has(a[href="/playables"])
+
+! Hide Games / Playables shelf from the homepage
+www.youtube.com##ytd-rich-shelf-renderer:has(a[href="/playables"]):upward(ytd-rich-section-renderer)
