@@ -3,7 +3,7 @@
 ! Version: 2026.8.24
 ! Last modified: 2026-08-24
 ! Expires: 7 days
-! Homepage: https://github.com/SEU-USUARIO/BetterNet
+! Homepage: https://github.com/leongps/my-browser-toolkit
 ! License: MIT
 
 ! ============================================================
