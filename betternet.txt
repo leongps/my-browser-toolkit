@@ -1,8 +1,10 @@
-! ============================================================
-! Better Internet Filters
-! Personal uBlock Origin filters
-! ============================================================
-
+! Title: BetterNet
+! Description: Personal uBlock Origin filters for a cleaner, less distracting internet
+! Version: 2026.8.24
+! Last modified: 2026-08-24
+! Expires: 7 days
+! Homepage: https://github.com/SEU-USUARIO/BetterNet
+! License: MIT
 
 ! ============================================================
 ! Instagram
@@ -14,13 +16,11 @@ instagram.com##a[href="/reels/"]:upward(3)
 ! Hide Explore from the sidebar
 instagram.com##a[href="/explore/"]:upward(3)
 
-
 ! ============================================================
 ! Facebook
 ! ============================================================
 
-! Exception for a uBlock Origin Ads filter
-! Related to: "uBO filters - Ads" - line 346
+! Disable conflicting uBO Ads filter
 facebook.com#@#div[aria-posinset] :is(h3, h4) span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{270,}/"):upward(div[aria-posinset]):style(height: 0 !important; overflow: hidden !important;)
 
 ! Hide sponsored posts
@@ -31,14 +31,3 @@ facebook.com##[aria-posinset] [href="/reel/?s=ifu_see_more"]:upward([aria-posins
 
 ! Hide Reels section
 www.facebook.com##[role=main]>div [aria-label="Reels"]:upward(3)
-
-
-! ============================================================
-! YouTube
-! ============================================================
-
-! YouTube Shorts are hidden using this external filter list:
-! https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt
-!
-! Source:
-! https://github.com/gijsdev/ublock-hide-yt-shorts
