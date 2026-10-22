@@ -1,4 +1,3 @@
-
 ! Title: BetterNet
 ! Description: Personal uBlock Origin filters for a cleaner, less distracting internet
 ! Version: 2026.10.22
