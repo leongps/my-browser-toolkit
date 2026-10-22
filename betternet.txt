@@ -1,7 +1,8 @@
+
 ! Title: BetterNet
 ! Description: Personal uBlock Origin filters for a cleaner, less distracting internet
-! Version: 2026.8.24
-! Last modified: 2026-08-24
+! Version: 2026.10.22
+! Last modified: 2026-10-22
 ! Expires: 7 days
 ! Homepage: https://github.com/leongps/my-browser-toolkit
 ! License: MIT
@@ -44,3 +45,19 @@ www.youtube.com##ytd-mini-guide-entry-renderer:has(a[href="/playables"])
 
 ! Hide Games / Playables shelf from the homepage
 www.youtube.com##ytd-rich-shelf-renderer:has(a[href="/playables"]):upward(ytd-rich-section-renderer)
+
+! ============================================================
+! Kick
+! ============================================================
+
+! Hide Slots & Casino streamers from the recommended sidebar
+kick.com##a[data-testid^="sidebar-recommended-channel-"]:has(span:has-text(/^Slots & Casino$/))
+
+! Hide the Slots & Casino section from the homepage
+kick.com##section:has(> div > a[href="/category/slots"])
+
+! Hide the Slots & Casino category card
+kick.com##button:has(span[data-testid="category-Slots & Casino"])
+
+! Hide Slots & Casino category links
+kick.com##a[href="/category/slots"]
