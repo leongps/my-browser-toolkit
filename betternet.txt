@@ -56,7 +56,7 @@ kick.com##a[data-testid^="sidebar-recommended-channel-"]:has(span:has-text(/^Slo
 kick.com##section:has(> div > a[href="/category/slots"])
 
 ! Hide the Slots & Casino category card
-kick.com##button:has(span[data-testid="category-Slots & Casino"])
+kick.com##button:has(span[data-testid="category-Slots & Casino"]):upward(1)
 
 ! Hide Slots & Casino category links
 kick.com##a[href="/category/slots"]
